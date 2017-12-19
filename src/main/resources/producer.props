@@ -1,0 +1,10 @@
+bootstrap.servers=localhost:1118,localhost:1119
+acks=all
+retries=0
+batch.size=16384
+auto.commit.interval.ms=1000
+linger.ms=0
+key.serializer=org.apache.kafka.common.serialization.StringSerializer
+value.serializer=org.apache.kafka.common.serialization.StringSerializer
+block.on.buffer.full=true
+partitioner.class=com.zz.bi.util.MyPartitioner
